@@ -13,6 +13,6 @@ The purpose of this project is to demonstrate the use of tensorflow/keras framew
 ![alt text](https://storage.googleapis.com/kaggle-media/competitions/statoil/M8OP2F2.png "ship")
 
 
-The project used multiple iterations of the CCN Model for training on the dataset. Based on the final accuracy result, it can be concluded that the **CNN-4 model** gave the best performance as shown in the table below:
+The project used [multiple iterations](https://github.com/dbrownambi/iceberg-ship-classification/tree/master/Models) of the basline CCN Model for training on the dataset. Based on the final accuracy result, it can be concluded that the **CNN-4 model** gave the best performance as shown in the table below:
 
 ![alt text](https://github.com/dbrownambi/iceberg-ship-classification/blob/master/Figures/final_table.JPG "final_table")
