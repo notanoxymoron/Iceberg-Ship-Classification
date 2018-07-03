@@ -136,6 +136,6 @@ We recommend using a python virtual environment specifically for use of tensorfl
 ## Conclusion
 
 * From my limited observations, this ConvNet was able to get a Log Loss score of around 0.194~0.205+ and has the potential to go deep by further regularization and optimizing such as to extend the training epochs, adjust early stopping, tweak optimizer, etc
-* Finally, I would like to thank shivam207 for his solution implemented for the Iceberg Classifier Challenge (https://github.com/shivam207/iceberg_challenge). I learnt a lot for how to reshape and normalize the dataset features from his solution.
+* Finally, I would like to thank shivam207 for his [solution](https://github.com/shivam207/iceberg_challenge) implemented for the Iceberg Classifier Challenge. I learnt a lot for how to reshape and normalize the dataset features from his solution.
 
 
