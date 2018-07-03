@@ -1,10 +1,18 @@
-Participated in the [Statoil/C-CORE Iceberg Classifier Challenge](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge)
+### This project is used to demonstrate the use of a convolutional neural networks with Tensorflow on the dataset. 
+The complete project report can be found [here](https://github.com/dbrownambi/iceberg-ship-classification/blob/master/Project%20Report.pdf). This is a Binary classification problem. The dataset used for this project is the Statoil/C-CORE Iceberg Classifier Challenge dataset found [here](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data). The data (train.json, test.json) is presented in json format. The files consist of a list of images and the goal is to predict whether an image contains a ship or an iceberg. The labels are provided by human experts and geographic knowledge on the target. All the images are 75x75 images with two bands.
 
-Built a Convolutional Neural Network (CNN) that automatically identifies if a remotely sensed target is a ship or an iceberg from
-the given satellite image dataset provided by Statoil/C-Core.
+The figure below shows the satellite captured images of both icebergs and ships:
 
-[Modified different hyper-parameters to achieve an accuracy of accuracy of 0.92 and a minimum log loss error of 0.21](https://github.com/dbrownambi/iceberg-ship-classification/blob/master/EE%20258_Project%202.pdf)
+![alt text](https://storage.googleapis.com/kaggle-media/competitions/statoil/NM5Eg0Q.png "satellite_imge")
 
-Obtained a kaggle Rank of 1056 out of the 3343 entriesmore than in the competition:
 
-![alt text](https://github.com/dbrownambi/iceberg-ship-classification/blob/master/Screenshot%20(8).png "Kaggle Rank Screenshot")
+The purpose of this project is to demonstrate the use of tensorflow/keras frameworks to create a convolutional neural net that classifies an iceberg from a boat:
+
+![alt text](https://storage.googleapis.com/kaggle-media/competitions/statoil/8ZkRcp4.png "iceberg")
+
+![alt text](https://storage.googleapis.com/kaggle-media/competitions/statoil/M8OP2F2.png "ship")
+
+
+The project used multiple iterations of the CCN Model for training on the dataset. Based on the final accuracy result, it can be concluded that the CNN-4 moedel gave the best performance out of all as shown in the table below:
+
+![alt text](https://github.com/dbrownambi/iceberg-ship-classification/blob/master/Figures/final_table.JPG "final_table")
