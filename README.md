@@ -1,3 +1,4 @@
+# Iceberg or Ship Classification
 ### This project is used to demonstrate the use of a convolutional neural networks with Tensorflow on the dataset. 
 The complete project report can be found [here](https://github.com/dbrownambi/iceberg-ship-classification/blob/master/Project%20Report.pdf). This is a Binary classification problem. The dataset used for this project is the Statoil/C-CORE Iceberg Classifier Challenge dataset found [here](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data). The data (train.json, test.json) is presented in json format. The files consist of a list of images and the goal is to predict whether an image contains a ship or an iceberg. The labels are provided by human experts and geographic knowledge on the target. All the images are 75x75 images with two bands.
 
